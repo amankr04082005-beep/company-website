@@ -22,6 +22,8 @@ html{scroll-padding-top:90px}body{background:#fff;color:var(--ink);font-family:'
 @media(max-width:760px){.hero-content{width:calc(100% - 38px)}.hero h1{font-size:clamp(25px,7.3vw,37px)}}
 .hero h1 span{display:block}
 .main-nav a[aria-current="page"]{color:#e6a9dc}
+.additional-projects p a{color:#303b4e;border-bottom:1px solid #c5cad2;transition:color .2s,border-color .2s}
+.additional-projects p a:hover{color:#842779;border-color:#842779}
 .hero-image{transform:scale(1.07);animation:heroLive 24s ease-in-out infinite alternate}
 .hero-image:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(112deg,transparent 28%,rgba(192,221,255,.10) 46%,rgba(230,169,220,.13) 51%,transparent 68%);background-size:220% 100%;animation:wallpaperLight 13s ease-in-out infinite;mix-blend-mode:screen}
 .hero-grid:before{content:'';position:absolute;inset:-120px;background-image:radial-gradient(circle,rgba(255,255,255,.64) 1px,transparent 1.8px),linear-gradient(122deg,transparent 48.8%,rgba(206,222,250,.16) 49.6%,transparent 50.4%);background-size:112px 96px,224px 192px;animation:networkDrift 28s linear infinite;opacity:.38}
